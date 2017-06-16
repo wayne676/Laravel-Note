@@ -88,3 +88,6 @@ namespace App\Http\Controllers\ajax;
 
 use App\Http\Controllers\Controller;
 ```
+
+### profileAjaxSave.php 
+In terms of the profileAjaxSave file, you do not need edit it. 
