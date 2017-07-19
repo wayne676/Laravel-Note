@@ -1,4 +1,0 @@
-### web.php
-```php
-Route::match(['get', 'post'], '/user/dashboard', 'DashboardController@home')->name('dashboard');
-```
