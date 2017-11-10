@@ -1,0 +1,24 @@
+总结
+
+建立ec2
+
+安装php7 mysql等等 linux版本不同名字有差异 可以用yum search php7.0-* 类似的命令找
+
+scp上传
+$scp -i ~/Desktop/amazon.pem ~/Desktop/MS115.fa ubuntu@ec2-54-166-128-20.compute-1.amazonaws.com:~/data/
+
+数据库导出和导入
+
+sudo /usr/local/mysql/bin/mysqldump -u root -p
+
+ wwl$ sudo /usr/local/mysql/bin/mysqldump -u root -p -x DevSolarInspection > /Users/wwl/Desktop/Dumpmy.sql  
+
+create database aaa;
+use aaa;
+source file.sql;
+
+上传laravel文件更改storage权限配置env public可能也要改
+
+更改httpd配置把默认主目录放在laravel public文件
+
+完结
